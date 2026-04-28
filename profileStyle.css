@@ -1,0 +1,52 @@
+@charset "utf-8";
+
+.Warning {
+    font-size: 13px;
+    margin-bottom: 30px;
+}
+
+main {
+    line-height: 0.5;
+    margin-top: 150px;
+    margin-left: 250px;
+}
+
+h3 + p {
+    margin-top: 40px;
+}
+
+.kp-icon {
+    margin-top: 35px;
+}
+
+.recommended-game {
+    margin-top: 50px;
+}
+
+.game-panelarea {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.game-panel {
+    width: 230px;
+    height: 210px;
+    background-color: rgb(199, 199, 199);
+    display: flex;
+    justify-content: center;
+}
+
+.game-title {
+    display: flex;
+    flex-direction: column;   /* 縦並び */
+    align-items: center;      /* 横中央 */
+    justify-content: center;  /* 縦中央 */
+    margin-top: 22px;
+    font-size: 25px;
+    color: black;
+}
+
+.game-panel a {
+    text-decoration: none;
+}
