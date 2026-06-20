@@ -1,0 +1,46 @@
+@charset "utf-8";
+main {
+    line-height: 0.5;
+    margin-top: 70px;
+    margin-left: 250px;
+}
+
+.article-panelarea {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.article-panel {
+    width: 250px;
+    height: 220px;
+    background-color: rgb(226, 226, 226);
+    display: flex;
+    justify-content: center;
+    box-shadow: 5px 5px 10px rgb(173, 173, 173);
+}
+
+.article-title {
+    display: flex;
+    flex-direction: column;   /* 縦並び */
+    align-items: center;      /* 横中央 */
+    justify-content: center;  /* 縦中央 */
+    margin-top: 22px;
+    font-size: 25px;
+    color: black;
+}
+
+.article-panel a {
+    text-decoration: none;
+}
+
+.article-panel h6 {
+    line-height: 1.2;
+    margin-top: -5px;
+    margin-left: 10px;
+    color: rgb(110, 110, 110);
+}
+
+.turbowarp-png {
+    margin-left: 15px;
+}
