@@ -1,0 +1,20 @@
+@charset "utf-8";
+
+main {
+    margin-top: 70px;
+    margin-left: 250px;
+    margin-right: 250px;
+}
+
+h2 { 
+    margin-top: 50px;
+}
+
+p {
+    margin-top: 10px;
+    line-height: 1.5;
+}
+
+.last-Update {
+    margin-top: 50px;
+}
